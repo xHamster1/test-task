@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    block-size: border-box;
+}
+
+.block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.block > div {
+    width: 25%;
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
